@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima Agora</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sarala&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -23,29 +23,43 @@
                 </button>
             </div>
         </div>
-        <div id="weather-data">
-            <h2><i class="fa-solid fa-location-dot"></i>
-                <span id="city">Maceio</span>
+        <div id="weather-data" class="hidden">
+            <h2>    
+                <span id="city"></span>
                 <img src="" alt="Bandeira do país" id="country">
             </h2>
-            <p id="temperature"><span>38</span>&deg;C</p>
+            <p id="temperature"><span></span>&deg;C</p>
             <div id="description-container">
-                <p id="description">Nublado</p>
+                <p id="description"></p>
                 <img src="" alt="Condições do tempo" id="weather-icon">
             </div>
             <div id="details-container">
-                <p id="umidity">
+                <p id="humidity">
                     <i class="fa-solid fa-droplet"></i>
-                    <span>48%</span>
+                    <span></span>
                 </p>
                 <p id="wind">
                     <i class="fa-solid fa-wind"></i>
-                    <span>3km/h</span>
+                    <span></span>
                 </p>
             </div>
-
         </div>
+        <div id="error-message" class="hidden">
+            <p>Não foi possível encontrar o clima de uma cidade com este nome.</p>
+          </div>
+          <div id="loader" class="hidden">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+          <div id="suggestions">
+            <button id="viena">Viena</button>
+            <button id="copenhague">Copenhague</button>
+            <button id="zurique">Zurique</button>
+            <button id="vancouver">Vancouver</button>
+            <button id="genebra">Genebra</button>
+            <button id="frankfurt">Frankfurt</button>
+            <button id="osaka">Osaka</button>
+            <button id="maceio">Maceió</button>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
