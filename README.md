@@ -7,7 +7,6 @@ The Weather Dashboard is a simple web application that allows users to check the
 
 - **City Search:** Users can enter the name of a city to retrieve its current weather information.
 - **Weather Details:** The dashboard provides details such as temperature, humidity, wind speed, and a brief description of the weather conditions.
-- **5-Day Forecast:** Users can also view a 5-day weather forecast for the selected city.
 - **Responsive Design:** The site is responsive and can be used on various devices, including mobile phones, tablets, and desktops.
 
 ## Technologies Used
