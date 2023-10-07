@@ -1,5 +1,4 @@
-# :sun_behind_small_cloud: Clima agora
-
+# :sun_behind_small_cloud: Weather Dashboard
 ## Description
 
 The Weather Dashboard is a simple web application that allows users to check the current weather conditions for different cities around the world. It utilizes the OpenWeatherMap API to fetch real-time weather data and displays it in an easy-to-read format.
@@ -23,7 +22,7 @@ The Weather Dashboard is a simple web application that allows users to check the
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your-username/weather-dashboard.git
+```git clone https://github.com/your-username/weather-dashboard.git```
 
 2. Open the `index.html` file in your web browser.
 
