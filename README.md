@@ -15,7 +15,6 @@ The Weather Dashboard is a simple web application that allows users to check the
 - CSS3: Styling and layout.
 - JavaScript: For interactive functionality.
 - [OpenWeatherMap API](https://openweathermap.org/api): To fetch weather data.
-- [Bootstrap](https://getbootstrap.com/): CSS framework for responsive design.
 
 ## Usage
 
