@@ -1,7 +1,4 @@
 # :sun_behind_small_cloud: Clima agora
-# Weather Dashboard
-
-![Weather Dashboard Screenshot](screenshot.png)
 
 ## Description
 
@@ -25,4 +22,29 @@ The Weather Dashboard is a simple web application that allows users to check the
 ## Usage
 
 1. Clone the repository to your local machine:
+
+git clone https://github.com/your-username/weather-dashboard.git
+
+2. Open the `index.html` file in your web browser.
+
+3. Enter the name of a city in the search bar and click "Search."
+
+4. View the current weather conditions and the 5-day forecast.
+
+## API Configuration
+
+To use the OpenWeatherMap API, you'll need to sign up for an API key. Once you have your API key, replace `'YOUR_API_KEY'` in the `script.js` file with your actual API key:
+
+javascript
+```const apiKey = 'YOUR_API_KEY';```
+
+Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve the Weather Dashboard.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Thanks to OpenWeatherMap for providing the weather data API.
+This project was created as part of a web development course.
 
