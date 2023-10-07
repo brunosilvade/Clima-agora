@@ -1,4 +1,4 @@
-const apiKey = "5b5a87daecfe2d4bacd247964c2e5b84";
+const apiKey = `${secrets.API_KEY}`;
 
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
